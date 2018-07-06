@@ -24,7 +24,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://demoaut-mimic.kazurayam.com/18438_testbed.html')
 
-WebUI.click(findTestObject('Page_Discussion 18438/button_Get data'))
+WebUI.click(findTestObject('Page_Discussion 18438/button_Success'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Page_Discussion 18438/button_Warning'))
+
+WebUI.delay(3)
 
 WebUI.closeBrowser()
 
